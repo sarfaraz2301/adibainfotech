@@ -1,0 +1,26 @@
+{{ partial "header.html" . }}
+{{ partial "page_title.html" . }}
+  <div class="ph3 ph4-m ph6-l flex items-stretch items-start flex-wrap flex-nowrap-m pb5">
+      <main class="pr3-m pr4-l w-100 w-70-m w-70-l">
+        <div class="aspect-ratio w-100 aspect-ratio--16x9 mb4">
+          <div class="aspect-ratio--object z-2 bg-center cover" style="background-image: url(' {{ (trim .Params.featured_image "/") | absURL }}')"></div>
+        </div>
+        <div class="content">
+          {{ .Content }}
+        </div>
+        <form action="#" class="w-100 w-70-m w-50-l">
+          <label class="db ttu tracked gray b mb1 f6">Name</label>
+          <input type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required>
+          <label class="db ttu tracked gray b mb1 f6">Email</label>
+          <input type="email" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required>
+          <label class="db ttu tracked gray b mb1 f6">Contact No</label>
+          <input type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required>
+          <label class="db ttu tracked gray b mb1 f6">Message</label>
+          <textarea rows="4" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required></textarea>
+          <button type="submit" class="bn pa3 bg-green white hover-bg-dark-green b ttu tracked br2">Submit</button>
+        </form>
+      </main>
+      {{ partial "vacancy.html" . }}
+  </div>
+
+{{ partial "footer.html" . }}

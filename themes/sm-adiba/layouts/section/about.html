@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+{{ partial "page_title.html" . }}
+  <div class="ph3 ph4-m ph6-l flex items-stretch items-start flex-wrap flex-nowrap-m pb5">
+      <main class="pr3-m pr4-l w-100 w-70-m w-70-l">
+        <div class="aspect-ratio w-100 aspect-ratio--16x9 mb4">
+          <div class="aspect-ratio--object z-2 bg-center cover" style="background-image: url(' {{ (trim .Params.featured_image "/") | absURL }}')"></div>
+        </div>
+        <div class="content">
+          {{ .Content }}
+        </div>
+      </main>
+      {{ partial "vacancy.html" . }}
+  </div>
+
+{{ partial "footer.html" . }}
