@@ -8,7 +8,7 @@ collections:
   files:
     - label: "Contact Page"
       name: "contact"
-      file: "site/content/about/_index.md"
+      file: "content/about/_index.md"
       fields:
         - {label: Title, name: title, widget: string}
         - {label: Seo Keywords, name: seo_keywords, widget: string}
