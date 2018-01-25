@@ -6,12 +6,54 @@ collections:
 - label: "Pages"
   name: "pages"
   files:
-    - label: "Contact Page"
-      name: "contact"
+    - label: "About Page"
+      name: "about"
       file: "content/about/_index.md"
       fields:
         - {label: Title, name: title, widget: string}
         - {label: Seo Keywords, name: seo_keywords, widget: string}
-        - {label: Seo Description, name: seo_description, widget: string}
+        - {label: Seo Description, name: seo_description, widget: text}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Content, name: body, widget: markdown}
+    - label: "Contact Page"
+      name: "contact"
+      file: "content/contact/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Keywords, name: seo_keywords, widget: string}
+        - {label: Seo Description, name: seo_description, widget: text}
         - {label: Google Map Coordinates, name: google_map_coordinates, widget: string}
         - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Content, name: body, widget: markdown}
+    - label: "Services Page"
+      name: "services"
+      file: "content/services/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Keywords, name: seo_keywords, widget: string}
+        - {label: Seo Description, name: seo_description, widget: text}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Content, name: body, widget: markdown}
+    - label: "Careers Page"
+      name: "careers"
+      file: "content/careers/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Keywords, name: seo_keywords, widget: string}
+        - {label: Seo Description, name: seo_description, widget: text}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Content, name: body, widget: markdown}
+    - label: "Specialization Page"
+      name: "specialization"
+      file: "content/specialization/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Keywords, name: seo_keywords, widget: string}
+        - {label: Seo Description, name: seo_description, widget: text}
+        - label: Industries
+          name: industries
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Image, name: image, widget: image}
+        - {label: Content, name: body, widget: markdown}
