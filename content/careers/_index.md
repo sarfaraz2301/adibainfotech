@@ -1,7 +1,7 @@
 ---
-title: "Careers"
-seo_keywords: ""
-seo_description: ""
-featured_image: "images/manpower.jpg"
+title: Careers
+seo_keywords: Careers at AdibaInfotech
+seo_description: Careers at AdibaInfotech
+featured_image: images/manpower.jpg
 ---
-Metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero!
+Please fill the form below with your details and we would get back to you soon.
