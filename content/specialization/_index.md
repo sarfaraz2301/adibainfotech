@@ -1,9 +1,9 @@
 ---
 title: Specialization
-seo_keywords: AdibaInfotech specialization
-seo_description: AdibaInfotech specialization
+seo_keywords: ''
+seo_description: ''
 industries:
-  - image: /static/images/industrial-1636390_640.jpg
+  - image: /images/industrial-1636390_640.jpg
     name: EPC
   - image: images/manpower.jpg
     name: Manufcturing
