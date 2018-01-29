@@ -14,7 +14,7 @@ industries:
   - image: /images/aviation.jpg
     name: Aviation/Aerospace
   - image: /images/hospitality.jpg
-    name: Hospitality/Hotel/Restaurant
+    name: Hospitality/ Hotel / Restaurant
   - image: /images/diagnostic.jpg
     name: Hospital/Health Care/Diagnostic
   - image: /images/pharmaceutical.jpg
