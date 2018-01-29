@@ -42,5 +42,8 @@ clients:
     name: Gena Pharmaceuticals Ltd.
   - image: /images/25.gif
     name: Aditi Integrated Service Soln Pvt. Ltd.
+  - image: /images/26.png
+    name: Surji Agro Foods Pvt. Ltd.
+  - name: TVS Credit Service Ltd.
 ---
 We work with some of the leading namesin their respective industries and are looking forward to adding your name to the list.
