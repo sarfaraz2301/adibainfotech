@@ -16,7 +16,7 @@ industries:
   - image: /images/hospitality.jpg
     name: Hospitality/ Hotel / Restaurant
   - image: /images/diagnostic.jpg
-    name: Hospital/Health Care/Diagnostic
+    name: Hospital/ Health Care/ Diagnostic
   - image: /images/pharmaceutical.jpg
     name: Pharmaceutical
 ---
