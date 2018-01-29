@@ -12,7 +12,7 @@ industries:
   - image: /images/retailing.jpg
     name: Retailing
   - image: /images/aviation.jpg
-    name: Aviation/Aerospace
+    name: Aviation / Aerospace
   - image: /images/hospitality.jpg
     name: Hospitality/ Hotel / Restaurant
   - image: /images/diagnostic.jpg
