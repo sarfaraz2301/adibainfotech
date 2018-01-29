@@ -4,9 +4,7 @@ seo_keywords: ''
 seo_description: ''
 industries:
   - image: /images/industrial-1636390_640.jpg
-    name: EPC
-  - image: images/manpower.jpg
-    name: Manufacturing
+    name: EPC/Manufacturing
   - image: images/manpower.jpg
     name: Retail
   - image: images/manpower.jpg
