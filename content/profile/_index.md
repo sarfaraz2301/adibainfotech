@@ -46,5 +46,15 @@ clients:
     name: Surji Agro Foods Pvt. Ltd.
   - image: /images/27.png
     name: TVS Credit Service Ltd.
+  - image: /images/28.jpg
+    name: Anutham Exim Private Limited
+  - image: /images/29.jpg
+    name: Silver Leaf Tea Pvt. Ltd. (Goodwyn Tea)
+  - image: /images/30.png
+    name: Travel Systems Limited
+  - image: /images/31.png
+    name: Sunrise Foods Pvt Ltd
+  - image: /images/32.png
+    name: Prudent Education
 ---
 We work with some of the leading namesin their respective industries and are looking forward to adding your name to the list.
