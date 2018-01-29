@@ -43,7 +43,7 @@ collections:
         - {label: Featured Image, name: featured_image, widget: image}
         - {label: Business Name, name: business_name, widget: string}
         - {label: Address, name: address, widget: text}
-        - {label: Phone No, name: phone_no, widget: string}
+        - {label: Phone No, name: phone, widget: string}
         - {label: Email, name: email, widget: string}
         - {label: Content, name: body, widget: markdown}
     - label: "Profile Page"
