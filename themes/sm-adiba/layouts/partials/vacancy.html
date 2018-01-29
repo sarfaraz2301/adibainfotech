@@ -1,2 +1,14 @@
-<aside class="pr3-m pr4-l w-100 w-30-m w-30-l br2 bg-near-white">
+<aside class="w-100 w-40-m w-40-l br2">
+  {{ range .Site.Data.statistics.statistics }}
+  <div class="flex items-stretch items-start br2 overflow-hidden mb4">
+    <div class="w-50 bg-light-gray dark-green ph2 pv4 tc f-subheadline b">{{.value}}</div>
+    <div class="w-50 bg-light-green b dark-green pa3 tc tracked ttu f4 flex flex-column justify-center items-center">{{ .name }}</div>
+  </div>
+  {{ end }}
 </aside>
+<!--<aside class="ph3 ph4 w-100 w-30-m w-30-l br2 bg-washed-blue pv4">
+  {{ range .Site.Data.statistics.statistics }}
+  <div class="tc f-headline gold b">{{.value}}</div>
+  <div class="pv3 mb3 bt b--green f5 ttu tracked tc green b">{{ .name }}</div>
+  {{ end }}
+</aside>-->

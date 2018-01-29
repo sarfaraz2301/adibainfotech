@@ -7,6 +7,22 @@ collections:
 - label: "Pages"
   name: "pages"
   files:
+    - label: "Home Page"
+      name: "home"
+      file: "content/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Keywords, name: seo_keywords, widget: string}
+        - {label: Seo Description, name: seo_description, widget: text}
+        - label: Slides
+          name: slides
+          widget: list
+          fields:
+            - {label: Image, name: image, widget: image}
+            - {label: Title, name: title, widget: string}
+            - {label: Description, name: description, widget: text}
+            - {label: Link, name: link, widget: string}
+        - {label: Content, name: body, widget: markdown}
     - label: "About Page"
       name: "about"
       file: "content/about/_index.md"
@@ -25,6 +41,23 @@ collections:
         - {label: Seo Description, name: seo_description, widget: text}
         - {label: Google Map Coordinates, name: google_map_coordinates, widget: string}
         - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Content, name: body, widget: markdown}
+    - label: "Profile Page"
+      name: "profile"
+      file: "content/profile/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Keywords, name: seo_keywords, widget: string}
+        - {label: Seo Description, name: seo_description, widget: text}
+        - {label: Username, name: username, widget: string}
+        - {label: Password, name: password, widget: string}
+        - {label: Profile File, name: profile_file, widget: file}
+        - label: Clients
+          name: clients
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Image, name: image, widget: image}
         - {label: Content, name: body, widget: markdown}
     - label: "Services Page"
       name: "services"

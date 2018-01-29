@@ -1,3 +1,35 @@
 {{ partial "header.html" . }}
-<h1 class="ph6 pv5 tc bg-near-white green">Welcome to Adiba Infotech</h1>
+<script src="{{ "js/siema.min.js" | absURL }}"></script>
+<section id="slider" class="siema">
+  {{ range .Params.slides }}
+  <div class="flex items-stretch items-center flex-wrap">
+    <div class="w-100 w-70-ns">
+      <div class="aspect-ratio aspect-ratio--16x9">
+        <div class="aspect-ratio--object z-1 bg-center cover" style="background-image: url(' {{ (trim .image "/") | absURL }}')"></div>
+      </div>
+    </div>
+    <div class="w-30 flex flex-column ph3 ph5-l items-start justify-center bg-dark-blue">
+      <div class="f1 mb3 white tl">{{ .title }}</div>
+      <div class="f5 mb3 light-gray ttu tl">{{ .description }}</div>
+      <a href="{{ .link }}" class="link ba b--white-80 ph2 pv1 br2 white hover-bg-white hover-blue bw1">Read More</a>
+    </div>
+  </div>
+  {{ end }}
+</section>
+<section class="pv5 bg-near-white ph3 ph4-m ph6-l">
+  <div class="w-90 w-70-ns tc center f4 tj dark-gray">
+    {{.Content}}
+  </div>
+</section>
+<div class="ph3 ph4-m ph6-l flex items-center justify-center flex-wrap pv5">
+  {{ range .Site.Data.statistics.statistics }}
+  <div class="mb4 w-100 w-50-m w-third-l ph3">
+    <div class="bg-white ba b-green dark-green ph2 pv4 mv0 tc f-subheadline b br2 br--top">{{.value}}</div>
+    <div class="bg-light-green bl br bb b-green b dark-green pa3 tc tracked ttu f4 flex flex-column justify-center items-center br2 br--bottom">{{ .name }}</div>
+  </div>
+  {{ end }}
+</div>
+<script data-trubolinks-eval="true">
+  var mySiema=new Siema({duration:250,loop:true,});setInterval(()=>mySiema.next(),4000)
+</script>
 {{ partial "footer.html" . }}

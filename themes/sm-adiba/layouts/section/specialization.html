@@ -1,18 +1,22 @@
 {{ partial "header.html" . }}
 {{ partial "page_title.html" . }}
   <div class="ph3 ph4-m ph6-l">
-      <main class="flex items-stretch items-start flex-wrap flex-nowrap-m pb1">
+      <main class="pb1">
         <div class="content w-100 mb3">
           {{ .Content }}
         </div>
+        <div class="flex items-stretch items-start flex-wrap pb1">
         {{ range .Params.industries }}
-        <div class="ph3 w-100 w-50-m w-third-l mb5">
+        <div class="ph3 w-100 w-50-m w-third-l pb5 flex flex-column">
+          <div>
           <div class="aspect-ratio aspect-ratio--16x9 br2 br--top w-100 overflow-hidden z-1">
             <div class="aspect-ratio--object cover bg-center" style="background-image: url('{{ ( trim .image "/" ) | absURL}}')"></div>
           </div>
-          <div class="bg-near-white pv4 br2 br--bottom ph3 f4 b green ttu tracked-mega">{{.name}}</div>
+        </div>
+          <div class="bg-light-green pv3 br2 br--bottom ph3 f4 b dark-green ttu tracked-mega flex-auto">{{.name}}</div>
         </div>
         {{ end }} 
+      </div>
       </main>
   </div>
 
