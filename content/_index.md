@@ -3,10 +3,12 @@ title: Adiba Infotech - Manpower solutions to empower you
 seo_keywords: Adiba Infotech
 seo_description: Adiba Infotech
 slides:
-  - description: This is an awesome description of the slide
+  - description: >-
+      Businesses are empowered by people. We can find the right people for your
+      business.
     image: images/manpower.jpg
     link: /about
-    title: Slide Title
+    title: We provide MANPOWER
   - description: Great teams can make great things happen. We help you build that TEAM.
     image: /images/conference-1886025_1280.jpg
     link: /services
