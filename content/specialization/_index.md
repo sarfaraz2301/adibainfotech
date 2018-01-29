@@ -4,9 +4,9 @@ seo_keywords: ''
 seo_description: ''
 industries:
   - image: /images/industrial-1636390_640.jpg
-    name: EPC/Manufacturing
+    name: EPC / Manufacturing
   - image: /images/construction.jpg
-    name: Construction/Engineering
+    name: Construction/ Engineering
   - image: /images/realestate.jpg
     name: Real Estate
   - image: /images/retailing.jpg
