@@ -5,7 +5,7 @@
       <main class="pr3-m pr4-l w-100 w-40-m w-40-l">
         <address class="mb4 fs-normal">
           <h3>{{.Params.business_name}}</h3>
-          <div>{{ replace .Params.address "\n" "<br>" }}</div>
+          <div>{{ replace .Params.address "\n" "<br>" | safeHTML }}</div>
           <div>Tel: {{.Params.phone}}</div>
           <div>Email: <a href="mailto:{{.Params.email}}">{{.Params.email}}</a></div>
         </address>
