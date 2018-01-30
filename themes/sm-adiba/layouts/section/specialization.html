@@ -19,7 +19,11 @@
         </section>
       </main>
   </div>
-<script data-trubolinks-eval="true">
-  var mySiema=new Siema({duration:250,loop:true,});setInterval(()=>mySiema.next(),3000)
+<script>
+  if(siema_interval){
+    clearInterval(siema_interval)
+  }
+  var mySiema=new Siema({duration:250,loop:true,});
+  var siema_interval = setInterval(()=>mySiema.next(),5000)
 </script>
 {{ partial "footer.html" . }}
