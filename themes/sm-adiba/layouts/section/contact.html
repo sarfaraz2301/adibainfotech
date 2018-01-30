@@ -1,8 +1,8 @@
 {{ partial "header.html" . }}
 {{ partial "page_title.html" . }}
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOp_b26dWumYiB9Pc3EwrC-FEPP2CkgGk"></script>
-  <div class="ph3 ph4-m ph6-l flex items-stretch items-start flex-wrap flex-nowrap-m pb5">
-      <main class="pr3-m pr4-l w-100 w-40-m w-40-l">
+  <div class="ph3 ph4-m ph5-l flex items-stretch items-start flex-wrap flex-nowrap-l pb5">
+      <main class="pr4-l w-100 w-40-l">
         <address class="mb4 fs-normal">
           <h3>{{.Params.business_name}}</h3>
           <div>{{ replace .Params.address "\n" "<br>" | safeHTML }}</div>
@@ -12,7 +12,7 @@
         <div class="content">
           {{ .Content }}
         </div>
-        <form name="contact" netlify class="w-100">
+        <form name="contact" netlify class="w-100 mb5">
           <label class="db ttu tracked gray b mb1 f6">Name</label>
           <input name="name" id="name" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required>
           <label class="db ttu tracked gray b mb1 f6">Email</label>
@@ -24,7 +24,7 @@
           <button type="submit" class="bn pa3 bg-green white hover-bg-dark-green b ttu tracked br2">Submit</button>
         </form>
       </main>
-      <aside class="pr3-m pr4-l w-100 w-60-m w-60-l bg-near-white ba bw1 b--black-20" id="map-canvas">
+      <aside class="pr3-m pr4-l w-100 w-60-l bg-near-white ba bw1 b--black-20 mb5" id="map-canvas" style="min-height: 360px;">
       </aside>
   </div>
   <script data-turbolinks-eval="true">

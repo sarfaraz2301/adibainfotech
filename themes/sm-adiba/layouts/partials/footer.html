@@ -7,6 +7,9 @@
   </div>
 </div>
 <script>
+  var toggle_mobile_menu = function(){
+    document.getElementById("mobile_nav").classList.toggle("dn")
+  }
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
       if (!user) {

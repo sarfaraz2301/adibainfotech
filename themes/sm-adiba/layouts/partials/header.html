@@ -13,11 +13,11 @@
   </head>
   <body class="pt4">
     <header>
-      <nav class="ph3 ph4-m ph6-l bg-white shadow-1 z-5 pv3 fixed top-0 left-0 right-0 flex items-center">
+      <nav class="ph3 ph4-m ph5-l bg-white shadow-1 z-5 pv3 fixed top-0 left-0 right-0 flex items-center">
         <div class="flex-auto">
           <a href="/" class="link f3 ttu tracked orange b">Adiba Infotech</a>
         </div>
-        <div class="tr">
+        <div class="tr dn db-l">
           <a class="link pa2 ttu f6 green b dib" href="/">Home</a>
           <a class="link pa2 ttu f6 green b dib" href="/about">About</a>
           <a class="link pa2 ttu f6 green b dib" href="/profile">Profile</a>
@@ -25,6 +25,24 @@
           <a class="link pa2 ttu f6 green b dib" href="/specialization">Specialization</a>
           <a class="link pa2 ttu f6 green b dib" href="/careers">Careers</a>
           <a class="link pa2 ttu f6 green b dib" href="/contact">Contact</a>
+        </div>
+        <div class="tr db dn-l ba pa2 br2 pointer" onclick="toggle_mobile_menu()">
+          <div class="bg-green mb1" style="height:5px; width:35px;"></div>
+          <div class="bg-green mb1" style="height:5px; width:35px;"></div>
+          <div class="bg-green" style="height:5px; width:35px;"></div>
+        </div>
+        <div id="mobile_nav" class="fixed top-0 right-0 bottom-0 w-80 w-50-m bg-white z-5 shadow-2 pv3 ph3 ph4-m dn">
+          <div class="flex items-center">
+            <a href="/" class="link f3 ttu tracked orange b db flex-auto">Adiba Infotech</a>
+            <div class="tr db ba ph2 pv1 br2 pointer b lh-solid f3 b-black black" onclick="toggle_mobile_menu()">X</div>
+          </div>
+          <a class="link pv3 ttu f6 green b db bb b--black-20 db" href="/">Home</a>
+          <a class="link pv3 ttu f6 green b db bb b--black-20 db" href="/about">About</a>
+          <a class="link pv3 ttu f6 green b db bb b--black-20 db" href="/profile">Profile</a>
+          <a class="link pv3 ttu f6 green b db bb b--black-20 db" href="/services">Services</a>
+          <a class="link pv3 ttu f6 green b db bb b--black-20 db" href="/specialization">Specialization</a>
+          <a class="link pv3 ttu f6 green b db bb b--black-20 db" href="/careers">Careers</a>
+          <a class="link pv3 ttu f6 green b db bb b--black-20 db" href="/contact">Contact</a>
         </div>
       </nav>
     </header>

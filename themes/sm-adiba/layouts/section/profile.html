@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 {{ partial "page_title.html" . }}
 <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
-  <div class="ph3 ph4-m ph6-l w-100 w-60-m w-50-l center pb4" id="login_box">
+  <div class="ph3 ph4-m ph5-l w-100 w-60-m w-40-l center pb4" id="login_box">
     <div class="f4 pv3 ph3 tc gray bb b--black-20 mb3">Login Required</div>
     <div class="f5 tc mb3 gray">You must login to view the contents of this page.</div>
     <label class="db f6 ttu mb1 gray">Username</label>
@@ -11,7 +11,7 @@
     <button class="bn bg-green hover-bg-dark-green pa3 br2 white dib mb3 center" onclick="login()">Submit</button>
     <div class="red f6 ttu mb2 dn" id="error_text">Please enter both username and password and try again</div>
   </div>
-  <div class="ph3 ph4-m ph6-l dn" id="main_content">
+  <div class="ph3 ph4-m ph5-l dn" id="main_content">
       <main class="flex items-stretch items-start flex-wrap pb1">
         <div class="w-100 mb3 tc">
           <a href="{{ (trim .Params.profile_file "/" ) | absURL }}" class="link bg-animate center ph4 pv3 bg-green hover-bg-dark-green white f3 ttu tracked br2">Download Profile</a>
@@ -22,8 +22,10 @@
         </div>
         {{ range .Params.clients }}
         <div class="ph3 w-100 w-third-m w-25-l mb5 tc">
-          <img src="{{ ( trim .image "/" ) | absURL}}">
-          <div class="pv3 ph3 f4 b green ttu tracked tc">{{.name}}</div>
+          <div class="aspect-ratio aspect-ratio--16x9 br2 br--top w-100 overflow-hidden z-1">
+            <div class="aspect-ratio--object contain bg-center" style="background-image: url('{{ ( trim .image "/" ) | absURL}}')"></div>
+          </div>
+          <div class="pv3 ph3 f5 b green ttu tracked tc">{{.name}}</div>
         </div>
         {{ end }} 
       </main>

@@ -1,11 +1,11 @@
 {{ partial "header.html" . }}
 {{ partial "page_title.html" . }}
-  <div class="ph3 ph4-m ph6-l flex items-stretch items-start flex-wrap flex-nowrap-m pb5">
-      <main class="pr3-m pr4-l w-100 w-60-m w-60-l">
+  <div class="ph3 ph4-m ph5-l flex items-stretch items-start flex-wrap flex-nowrap-l pb5">
+      <main class="pr4-l w-100 w-60-l">
         <div class="aspect-ratio w-100 aspect-ratio--16x9 mb4">
           <div class="aspect-ratio--object z-2 bg-center cover" style="background-image: url(' {{ (trim .Params.featured_image "/") | absURL }}')"></div>
         </div>
-        <div class="content">
+        <div class="content mb5">
           {{ .Content }}
         </div>
       </main>
