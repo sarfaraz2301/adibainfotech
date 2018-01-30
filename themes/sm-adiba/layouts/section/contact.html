@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 {{ partial "page_title.html" . }}
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOp_b26dWumYiB9Pc3EwrC-FEPP2CkgGk" data-turbolinks-eval="true"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOp_b26dWumYiB9Pc3EwrC-FEPP2CkgGk"></script>
   <div class="ph3 ph4-m ph5-l flex items-stretch items-start flex-wrap flex-nowrap-l pb5">
       <main class="pr4-l w-100 w-40-l">
         <address class="mb4 fs-normal">
@@ -70,6 +70,7 @@
    });
  }
  google.maps.event.addDomListener(window, 'load', initialize);
+ google.maps.event.addDomListener(window, 'page:load', initialize);
 </script>
 
 {{ partial "footer.html" . }}
