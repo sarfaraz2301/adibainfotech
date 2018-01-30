@@ -27,7 +27,7 @@
       <aside class="pr3-m pr4-l w-100 w-60-l bg-near-white ba bw1 b--black-20 mb5" id="map-canvas" style="min-height: 360px;">
       </aside>
   </div>
-  <script data-turbolinks-eval="false">
+  <script>
  function initialize() {
    var gmc = {{.Params.google_map_coordinates}}
    var myLatlng = new google.maps.LatLng(gmc.split(",")[0], gmc.split(",")[1]);
