@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 {{ partial "page_title.html" . }}
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOp_b26dWumYiB9Pc3EwrC-FEPP2CkgGk"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOp_b26dWumYiB9Pc3EwrC-FEPP2CkgGk" data-turbolinks-eval="false"></script>
   <div class="ph3 ph4-m ph5-l flex items-stretch items-start flex-wrap flex-nowrap-l pb5">
       <main class="pr4-l w-100 w-40-l">
         <address class="mb4 fs-normal">
@@ -27,7 +27,7 @@
       <aside class="pr3-m pr4-l w-100 w-60-l bg-near-white ba bw1 b--black-20 mb5" id="map-canvas" style="min-height: 360px;">
       </aside>
   </div>
-  <script>
+  <script data-turbolinks-eval="false">
  function initialize() {
    var gmc = {{.Params.google_map_coordinates}}
    var myLatlng = new google.maps.LatLng(gmc.split(",")[0], gmc.split(",")[1]);
