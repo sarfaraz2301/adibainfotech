@@ -1,6 +1,6 @@
 statistics:
   - name: New Vacancies
-    value: '10'
+    value: '20'
   - name: Companies
     value: 5
   - name: Clients Served
