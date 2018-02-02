@@ -12,8 +12,9 @@ collections:
       file: "content/_index.md"
       fields:
         - {label: Title, name: title, widget: string}
-        - {label: Seo Keywords, name: seo_keywords, widget: string}
-        - {label: Seo Description, name: seo_description, widget: text}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
         - label: Slides
           name: slides
           widget: list
@@ -28,8 +29,10 @@ collections:
       file: "content/about/_index.md"
       fields:
         - {label: Title, name: title, widget: string}
-        - {label: Seo Keywords, name: seo_keywords, widget: string}
-        - {label: Seo Description, name: seo_description, widget: text}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
         - {label: Featured Image, name: featured_image, widget: image}
         - {label: Content, name: body, widget: markdown}
     - label: "Contact Page"
@@ -37,8 +40,10 @@ collections:
       file: "content/contact/_index.md"
       fields:
         - {label: Title, name: title, widget: string}
-        - {label: Seo Keywords, name: seo_keywords, widget: string}
-        - {label: Seo Description, name: seo_description, widget: text}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
         - {label: Google Map Coordinates, name: google_map_coordinates, widget: string}
         - {label: Featured Image, name: featured_image, widget: image}
         - {label: Business Name, name: business_name, widget: string}
@@ -51,8 +56,10 @@ collections:
       file: "content/profile/_index.md"
       fields:
         - {label: Title, name: title, widget: string}
-        - {label: Seo Keywords, name: seo_keywords, widget: string}
-        - {label: Seo Description, name: seo_description, widget: text}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: strin, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
         - {label: Username, name: username, widget: string}
         - {label: Password, name: password, widget: string}
         - {label: Profile File, name: profile_file, widget: file}
@@ -68,8 +75,9 @@ collections:
       file: "content/services/_index.md"
       fields:
         - {label: Title, name: title, widget: string}
-        - {label: Seo Keywords, name: seo_keywords, widget: string}
-        - {label: Seo Description, name: seo_description, widget: text}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
         - {label: Featured Image, name: featured_image, widget: image}
         - {label: Content, name: body, widget: markdown}
     - label: "Careers Page"
@@ -77,8 +85,9 @@ collections:
       file: "content/careers/_index.md"
       fields:
         - {label: Title, name: title, widget: string}
-        - {label: Seo Keywords, name: seo_keywords, widget: string}
-        - {label: Seo Description, name: seo_description, widget: text}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
         - {label: Featured Image, name: featured_image, widget: image}
         - label: Roles
           name: roles
@@ -96,6 +105,7 @@ collections:
       file: "content/specialization/_index.md"
       fields:
         - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
         - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
         - {label: Seo Description, name: seo_description, widget: text, required: false}
         - label: Industries

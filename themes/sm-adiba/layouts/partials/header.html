@@ -5,7 +5,25 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <title>{{.Title}}</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{.Title}}" />
+    <meta property="og:description" content="{{.Params.seo_description}}" />
+    {{ if .Params.seo_description }}
+    <meta name="description" content="{{.Params.seo_description}}" />
+		{{end}}
+    {{ if .Params.seo_keywords }}
+    <meta name="keyowrds" content="{{.Params.seo_keywords}}" />
+		{{end}}
+    {{ if .Params.seo_title }}
+    <title>{{.Params.seo_title}}</title>
+    {{else}}
+    <title>{{.Params.title}}</title>
+    {{ end }}
+		{{ if .Params.featured_image }}
+    <meta property="og:image" content="{{ (trim .Params.featured_image "/") | absURL }}" />
+		{{ else }}
+    <meta property="og:image" content="{{ (trim .Site.Data.meta.fb_cover "/") | absURL}}" />
+		{{end}}
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet"> 
     <link href="{{ "css/main.css" | absURL }}" rel="stylesheet" type="text/css" />
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -14,9 +32,12 @@
   </head>
   <body class="pt4">
     <header>
-      <nav class="ph3 ph4-m ph5-l bg-white shadow-1 z-5 pv3 fixed top-0 left-0 right-0 flex items-center">
+      <nav class="ph3 ph4-m ph5-l bg-white shadow-1 z-5 pv2 fixed top-0 left-0 right-0 flex items-center">
+        <div class="pr2">
+          <a href="/" class="link"><img src="{{ (trim .Site.Data.meta.logo "/") | absURL }}" alt="Adiba Infotech" class="nt1" style="max-height:45px;"></a>
+        </div>
         <div class="flex-auto">
-          <a href="/" class="link f3 ttu tracked orange b">Adiba Infotech</a>
+          <a href="/" class="link f5 f3-ns ttu tracked orange b">Adiba Infotech</a>
         </div>
         <div class="tr dn db-l">
           <a class="link pa2 ttu f6 green b dib" href="/">Home</a>
@@ -28,13 +49,14 @@
           <a class="link pa2 ttu f6 green b dib" href="/contact" data-turbolinks="false">Contact</a>
         </div>
         <div class="tr db dn-l ba pa2 br2 pointer" onclick="toggle_mobile_menu()">
-          <div class="bg-green mb1" style="height:5px; width:35px;"></div>
-          <div class="bg-green mb1" style="height:5px; width:35px;"></div>
-          <div class="bg-green" style="height:5px; width:35px;"></div>
+          <div class="bg-green mb1" style="height:4px; width:30px;"></div>
+          <div class="bg-green mb1" style="height:4px; width:30px;"></div>
+          <div class="bg-green" style="height:4px; width:30px;"></div>
         </div>
         <div id="mobile_nav" class="fixed top-0 right-0 bottom-0 w-80 w-50-m bg-white z-5 shadow-2 pv3 ph3 ph4-m dn">
-          <div class="flex items-center">
-            <a href="/" class="link f3 ttu tracked orange b db flex-auto">Adiba Infotech</a>
+          <div class="flex items-start">
+            <a href="/" class="link flex-auto"><img src="{{ (trim .Site.Data.meta.logo "/") | absURL }}" alt="Adiba Infotech" class="nt1" style="max-height:90px;"></a>
+            <!-- <a href="/" class="link f3 ttu tracked orange b db flex-auto">Adiba Infotech</a> -->
             <div class="tr db ba ph2 pv1 br2 pointer b lh-solid f3 b-black black" onclick="toggle_mobile_menu()">X</div>
           </div>
           <a class="link pv3 ttu f6 green b db bb b--black-20 db" href="/">Home</a>

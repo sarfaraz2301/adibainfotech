@@ -1,5 +1,6 @@
 ---
 title: Profile
+seo_title: "Profile | Adiba Infotech"
 seo_keywords: adiba
 seo_description: adibainfotech
 username: adiba
