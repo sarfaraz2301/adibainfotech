@@ -80,6 +80,16 @@ collections:
         - {label: Seo Keywords, name: seo_keywords, widget: string}
         - {label: Seo Description, name: seo_description, widget: text}
         - {label: Featured Image, name: featured_image, widget: image}
+        - label: Roles
+          name: roles
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
+        - label: Industries
+          name: industries
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
         - {label: Content, name: body, widget: markdown}
     - label: "Specialization Page"
       name: "specialization"

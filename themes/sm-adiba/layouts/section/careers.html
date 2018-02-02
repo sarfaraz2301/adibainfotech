@@ -9,14 +9,108 @@
           {{ .Content }}
         </div>
         <form name="career" netlify class="w-100 w-70-m w-60-li mb4">
-          <label class="db ttu tracked gray b mb1 f6">Name</label>
-          <input name="name" id="name" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required>
-          <label class="db ttu tracked gray b mb1 f6">Email</label>
-          <input name="email" id="email" type="email" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required>
-          <label class="db ttu tracked gray b mb1 f6">Contact No</label>
-          <input name="contact_no" id="contact_no" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required>
-          <label class="db ttu tracked gray b mb1 f6">Message</label>
-          <textarea name="message" id="message" rows="4" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required></textarea>
+          <div class="flex items-start flex-wrap nl2 nr2">
+            <div class="w-100 w-50-ns ph2">
+              <label class="db ttu tracked gray b mb1 f6">Name</label>
+              <input name="name" id="name" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required>
+            </div>
+            <div class="w-100 w-50-ns ph2">
+              <label class="db ttu tracked gray b mb1 f6">Mobile No</label>
+              <input name="mobile_no" id="mobile_no" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required>
+            </div>
+            <div class="w-100 w-50-ns ph2">
+              <label class="db ttu tracked gray b mb1 f6">Alternate Contact No</label>
+              <input name="alternate_contact_no" id="alternate_contact_no" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
+            </div>
+            <div class="w-100 w-50-ns ph2">
+              <label class="db ttu tracked gray b mb1 f6">Email</label>
+              <input name="email" id="email" type="email" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required>
+            </div>
+            <div class="w-100 w-50-ns ph2">
+              <label class="db ttu tracked gray b mb1 f6">DOB/Age</label>
+              <input name="age" id="age" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required>
+            </div>
+            <div class="w-100 w-50-ns ph2">
+              <label class="db ttu tracked gray b mb1 f6">Gender</label>
+              <input name="gender" type="radio" class="" value="Male"> Male
+              <input name="gender" type="radio" class="" value="Female"> Female
+            </div>
+            <div class="w-100 ph2">
+              <label class="db ttu tracked gray b mb1 f6">Education Qualification</label>
+              <input name="education_qualification" id="education_qualification" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required>
+            </div>
+            <div class="w-100 ph2">
+              <label class="db ttu tracked gray b mb1 f6">Certification/Diploma (if any)</label>
+              <input name="certification" id="certification" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
+            </div>
+            <div class="w-100 w-50-ns ph2">
+              <label class="db ttu tracked gray b mb1 f6">Current Location</label>
+              <input name="current_location" id="current_location" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3">
+            </div>
+            <div class="w-100 w-50-ns ph2">
+              <label class="db ttu tracked gray b mb1 f6">Preferred Location</label>
+              <input name="preferred_location" id="preferred_location" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required>
+            </div>
+            <div class="w-100 ph2">
+              <label class="db ttu tracked gray b mb1 f6">Notice Period</label>
+              <input name="notice_period" id="notice_period" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-40 mb3" >
+            </div>
+            <div class="f4 w-100 ph2 m2 b bb b--black-10 mb3 pv2">Work Experience</div>
+            <div class="w-100 ph2">
+              <label class="db ttu tracked gray b mb1 f6">Current Company</label>
+              <input name="current_company" id="current_company" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
+            </div>
+            <div class="w-100 w-50-ns ph2">
+              <label class="db ttu tracked gray b mb1 f6">Work Ex (years)</label>
+              <input name="current_work_ex_years" id="current_work_ex_years" type="number" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
+            </div>
+            <div class="w-100 w-50-ns ph2">
+              <label class="db ttu tracked gray b mb1 f6">Work Ex (months)</label>
+              <input name="current_work_ex_months" id="current_work_ex_months" type="number" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
+            </div>
+            <div class="w-100 ph2">
+              <label class="db ttu tracked gray b mb1 f6">Previous Company</label>
+              <input name="previous_company" id="previous_company" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
+            </div>
+            <div class="w-100 w-50-ns ph2">
+              <label class="db ttu tracked gray b mb1 f6">Work Ex (years)</label>
+              <input name="previous_work_ex_years" id="previous_work_ex_years" type="number" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
+            </div>
+            <div class="w-100 w-50-ns ph2">
+              <label class="db ttu tracked gray b mb1 f6">Work Ex (months)</label>
+              <input name="previous_work_ex_months" id="previous_work_ex_months" type="number" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
+            </div>
+            <div class="w-100 ph2">
+              <label class="db ttu tracked gray b mb1 f6">Current Designation</label>
+              <input name="current_designation" id="current_designation" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-50 mb3" >
+            </div>
+            <div class="f4 w-100 ph2 m2 b bb b--black-10 mb3 pv2">CTC</div>
+            <div class="w-100 w-50-ns ph2">
+              <label class="db ttu tracked gray b mb1 f6">Current CTC</label>
+              <input name="current_ctc" id="current_ctc" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
+            </div>
+            <div class="w-100 w-50-ns ph2">
+              <label class="db ttu tracked gray b mb1 f6">Expected CTC</label>
+              <input name="expected_ctc" id="expected_ctc" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required>
+            </div>
+            <div class="f4 w-100 ph2 m2 b bb b--black-10 mb3 pv2">Profile</div>
+            <div class="w-100 w-50-ns ph2">
+              <label class="db ttu tracked gray b mb1 f6">Functions/Roles</label>
+              <select name="role" id="role" class="bn bg-near-white pa3 br2 gray db w-100 mb3" required>
+                {{ range .Params.roles }}
+                <option>{{ .name }}</option>
+                {{ end }}
+              </select>
+            </div>
+            <div class="w-100 w-50-ns ph2">
+              <label class="db ttu tracked gray b mb1 f6">Functions/Roles</label>
+              <select name="industry" id="industry" class="bn bg-near-white pa3 br2 gray db w-100 mb3" required>
+                {{ range .Params.industries }}
+                <option>{{ .name }}</option>
+                {{ end }}
+              </select>
+            </div>
+          </div>
           <button type="submit" class="bn pa3 bg-green white hover-bg-dark-green b ttu tracked br2">Submit</button>
         </form>
       </main>
