@@ -1,6 +1,6 @@
 ---
 title: Profile
-seo_title: "Profile | Adiba Infotech"
+seo_title: Profile | Adiba Infotech
 seo_keywords: adiba
 seo_description: adibainfotech
 username: adiba
@@ -58,4 +58,4 @@ clients:
   - image: /images/32.png
     name: Prudent Education
 ---
-We work with some of the leading namesin their respective industries and are looking forward to adding your name to the list.
+We work with some of the leading names in their respective industries and are looking forward to add your name into this list.
