@@ -57,5 +57,7 @@ clients:
     name: Sunrise Foods Pvt Ltd
   - image: /images/32.png
     name: Prudent Education
+  - image: /images/utkarsh.png
+    name: Utkarsh India Limited
 ---
 We work with some of the leading names in their respective industries and are looking forward to add your name into this list.
