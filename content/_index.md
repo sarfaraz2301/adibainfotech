@@ -1,7 +1,9 @@
 ---
 title: Adiba Infotech - Manpower solutions to empower you
 seo_title: Adiba Infotech - best manpower provider in Kolkata
-seo_keywords: 'recruitment, manpower, recruitment kolkata, consultancy'
+seo_keywords: >-
+  recruitment, manpower, recruitment kolkata, consultancy, Jobs, Vacancies,
+  Companies
 seo_description: >-
   Adiba Infotech is the best manpower provider in kolkata. We can help you build
   your team by providing efficient recruitment services.
