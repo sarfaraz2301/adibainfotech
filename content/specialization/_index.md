@@ -1,10 +1,11 @@
 ---
 title: Specialization
-seo_title: >-
-  Jobs, Industries, EPC, Construction, Engineering, Real Estate, Aviation,
-  Hospitality, Hospital/ Health Care/ Diagnostic, Hospitality/ Hotel /
-  Restaurant,  Oil / Gas / Petroleum, Retail, Pharmaceutical 
-seo_keywords: 'List of Job Industries, Best Candidates'
+seo_title: Specialization
+seo_keywords: >-
+  List of Job Industries, Best Candidates, Jobs, Industries, EPC, Construction,
+  Engineering, Real Estate, Aviation, Hospitality, Hospital/ Health Care/
+  Diagnostic, Hospitality/ Hotel / Restaurant,  Oil / Gas / Petroleum, Retail,
+  Pharmaceutical 
 seo_description: >-
   we service many different types of industries, placing employees of all skill
   levels into a wide variety of positions.
