@@ -1,8 +1,13 @@
 ---
-title: "Services"
-seo_keywords: ""
-seo_description: ""
-featured_image: "images/manpower.jpg"
+title: Services
+seo_title: >-
+  Manpower Recruitment, Head Hunting, Hiring & Training, Internship Program,
+  Bulk Hiring Solutions, Campus Hiring Solutions
+seo_keywords: Services offered at AdibaInfotech
+seo_description: >-
+  Adiba Infotech Private Limited plays a vital role in proving the best
+  recruitment solutions to the client organizations.
+featured_image: images/manpower.jpg
 ---
 The way a company projects itself depends on the workforce it possesses and where Adiba Infotech Private Limited plays a vital role in proving the best recruitment solutions to the client organizations. The fundamental job of a placement firm is to place the right candidate at the right firm and Adiba Infotech Private Limited takes this responsibility with pride.
 
