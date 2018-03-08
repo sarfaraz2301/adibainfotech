@@ -1,8 +1,11 @@
 ---
-title: "About"
-seo_keywords: ""
-seo_description: ""
-featured_image: "images/manpower.jpg"
+title: About
+seo_title: >-
+  High Performance Team, Varied Clientele Base, Cost Effective Placement
+  Solutions, 
+seo_keywords: Adiba Infotech Mission & Vision
+seo_description: We are the support to help you grow and achieve the best
+featured_image: images/manpower.jpg
 ---
  
 ‘We are the support to help you grow and achieve the best’
