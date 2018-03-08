@@ -56,6 +56,4 @@ industries:
 ---
 # **Your Focus is Our Focus**
 
-We can offer a deeper candidate pool, proven recruitment processes and greater success finding the right fit candidates to fill your open positions. You'll have the people you need in place faster than you ever thought possible.
-
-What makes Manpower so unique is that we service many different types of industries, placing employees of all skill levels into a wide variety of positions. Here is a preview of some industries where we are committed to provide our services.
+We can offer a deeper candidate pool, proven recruitment processes and greater success finding the right fit candidates to fill your open positions. You'll have the people you need in place faster than you ever thought possible. We service many different types of industries, placing employees of all skill levels into a wide variety of positions. Here is a preview of some industries where we are committed to provide our services.
