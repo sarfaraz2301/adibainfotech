@@ -1,7 +1,7 @@
 ---
 title: Contact
 seo_title: Contact Us
-seo_keywords: Manpower Company in Behala
+seo_keywords: Manpower Company in Kolkata
 seo_description: >-
   Adiba Infotech is keen to welcome you at our office for a better business
   development.
