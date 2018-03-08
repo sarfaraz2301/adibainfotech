@@ -1,7 +1,7 @@
 ---
 title: Careers
-seo_title: 'New Vacancies, Companies Served, Job Inerview'
-seo_keywords: Careers at AdibaInfotech
+seo_title: Careers
+seo_keywords: 'Careers at AdibaInfotech, New Vacancies, Companies Served, Job Inerview'
 seo_description: A bright professional career is right ahead
 featured_image: images/manpower.jpg
 roles:
