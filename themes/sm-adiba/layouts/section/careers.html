@@ -27,8 +27,8 @@
               <input name="email" id="email" type="email" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required>
             </div>
             <div class="w-100 w-50-ns ph2">
-              <label class="db ttu tracked gray b mb1 f6">DOB/Age</label>
-              <input name="age" id="age" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required>
+              <label class="db ttu tracked gray b mb1 f6">DOB</label>
+              <input name="age" id="age" type="text" class="date input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" required>
             </div>
             <div class="w-100 w-50-ns ph2">
               <label class="db ttu tracked gray b mb1 f6">Gender</label>
@@ -61,24 +61,24 @@
               <input name="current_company" id="current_company" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
             </div>
             <div class="w-100 w-50-ns ph2">
-              <label class="db ttu tracked gray b mb1 f6">Work Ex (years)</label>
-              <input name="current_work_ex_years" id="current_work_ex_years" type="number" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
+              <label class="db ttu tracked gray b mb1 f6">Date of Joining</label>
+              <input name="current_doj" id="current_doj" type="text" class="date input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
             </div>
             <div class="w-100 w-50-ns ph2">
-              <label class="db ttu tracked gray b mb1 f6">Work Ex (months)</label>
-              <input name="current_work_ex_months" id="current_work_ex_months" type="number" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
+              <label class="db ttu tracked gray b mb1 f6">Date of Leaving</label>
+              <input name="current_dol" id="current_dol" type="text" class="date input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
             </div>
             <div class="w-100 ph2">
               <label class="db ttu tracked gray b mb1 f6">Previous Company</label>
               <input name="previous_company" id="previous_company" type="text" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
             </div>
             <div class="w-100 w-50-ns ph2">
-              <label class="db ttu tracked gray b mb1 f6">Work Ex (years)</label>
-              <input name="previous_work_ex_years" id="previous_work_ex_years" type="number" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
+              <label class="db ttu tracked gray b mb1 f6">Date of Joining</label>
+              <input name="previous_doj" id="previous_doj" type="text" class="date input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
             </div>
             <div class="w-100 w-50-ns ph2">
-              <label class="db ttu tracked gray b mb1 f6">Work Ex (months)</label>
-              <input name="previous_work_ex_months" id="previous_work_ex_months" type="number" class="input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
+              <label class="db ttu tracked gray b mb1 f6">Date of Leaving</label>
+              <input name="previous_dol" id="previous_dol" type="text" class="date input-reset bn bg-near-white pa3 br2 gray db w-100 mb3" >
             </div>
             <div class="w-100 ph2">
               <label class="db ttu tracked gray b mb1 f6">Current Designation</label>
@@ -116,5 +116,10 @@
       </main>
       {{ partial "vacancy.html" . }}
   </div>
+  <script>
+    flatpickr(".date", {
+      dateFormat: "d/m/Y",
+    });
+  </script>
 
 {{ partial "footer.html" . }}
