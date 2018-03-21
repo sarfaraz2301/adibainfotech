@@ -5,8 +5,8 @@ seo_keywords: AdibaInfotech Clients
 seo_description: >-
   We work with some of the leading names in their respective industries and are
   looking forward to add your name into this list.
-username: adiba
-password: infotech
+username: RPO
+password: manpower
 profile_file: /images/company_presentation.pptx
 clients:
   - image: /images/southcity_logo.png
