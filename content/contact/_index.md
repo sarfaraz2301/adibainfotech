@@ -12,7 +12,7 @@ address: |-
   568/1 Parnasree Pally,
   Ground Floor,
   Kolkata- 700060, West Bengal
-phone: +91 33 6555-1271
+phone: (896) 127-1271
 email: contact@adibainfotech.com
 ---
 
