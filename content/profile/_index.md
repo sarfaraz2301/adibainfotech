@@ -6,7 +6,7 @@ seo_description: >-
   We work with some of the leading names in their respective industries and are
   looking forward to add your name into this list.
 username: RPO
-password: manpower
+password: workforce
 profile_file: /images/company_presentation.pptx
 clients:
   - image: /images/southcity_logo.png
