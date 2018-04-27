@@ -61,5 +61,7 @@ clients:
     name: Prudent Education
   - image: /images/utkarsh.png
     name: Utkarsh India Limited
+  - image: /images/logo.png
+    name: Nettare Beverages Pvt. Ltd.
 ---
 We work with some of the leading names in their respective industries and are looking forward to add your name into this list.
