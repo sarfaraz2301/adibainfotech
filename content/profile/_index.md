@@ -53,7 +53,7 @@ clients:
     name: Anutham Exim Private Limited
   - image: /images/29.jpg
     name: Silver Leaf Tea Pvt. Ltd. (Goodwyn Tea)
-  - image: /images/30.png
+  - image: /images/unnamed.jpg
     name: Travel Systems Limited
   - image: /images/31.png
     name: Sunrise Foods Pvt Ltd
