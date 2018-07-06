@@ -63,5 +63,15 @@ clients:
     name: Utkarsh India Limited
   - image: /images/logo.png
     name: Nettare Beverages Pvt. Ltd.
+  - image: /images/kreative-machiez.png
+    name: Kreative Machinez
+  - image: /images/vritti-logo_1.png
+    name: Vritti Solutions Limited
+  - image: /images/vindhya.jpg
+    name: Vindhya Telelinks Limited
+  - image: /images/1-120x120.png
+    name: VTL Electronics Limited
+  - image: /images/neptune.png
+    name: Neptune Holidays Pvt. Ltd.
 ---
 We work with some of the leading names in their respective industries and are looking forward to add your name into this list.
