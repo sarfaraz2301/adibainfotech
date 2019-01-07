@@ -73,5 +73,29 @@ clients:
     name: VTL Electronics Limited
   - image: /images/neptune.png
     name: Neptune Holidays Pvt. Ltd.
+  - image: /images/bhutan-bookings.png
+    name: Bhutan Bookings
+  - image: /images/prudent-motorsports.png
+    name: Prudent Motorsports
+  - image: /images/flurys.jpg
+    name: Flurys Swiss Confectionery
+  - image: /images/jana-care.png
+    name: Jana Care
+  - image: /images/shyplite.jpg
+    name: Shyplite
+  - image: /images/travel-d-globe.jpg
+    name: Travel D' Globe
+  - image: /images/xelpmoc.jpg
+    name: Xelpmoc
+  - image: /images/cars-24.jpg
+    name: Cars 24
+  - image: /images/fynd.jpg
+    name: Fynd
+  - image: /images/wedmegood.jpg
+    name: WedMeGood
+  - image: /images/pioneer-property.jpg
+    name: Pioneer Property
+  - image: /images/somani.gif
+    name: Somani Realtors
 ---
 We work with some of the leading names in their respective industries and are looking forward to add your name into this list.
