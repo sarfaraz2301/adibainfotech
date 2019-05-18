@@ -1,11 +1,11 @@
 statistics:
   - name: New Vacancies
-    value: '35'
+    value: '45'
   - name: Companies
-    value: '20'
+    value: '30'
   - name: Clients Served
-    value: '75'
+    value: '95'
   - name: Job Interview
-    value: '2000'
+    value: '3500'
   - name: Candidates Placed
-    value: '1000'
+    value: '1800'
