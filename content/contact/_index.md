@@ -5,7 +5,7 @@ seo_keywords: Manpower Company in Kolkata
 seo_description: >-
   Adiba Infotech is keen to welcome you at our office for a better business
   development.
-google_map_coordinates: '22.50726532253183, 88.30651786262071'
+google_map_coordinates: '22.506327484191928'
 featured_image: images/manpower.jpg
 business_name: Adiba Infotech Pvt Ltd
 address: |+
