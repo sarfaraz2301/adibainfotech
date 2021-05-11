@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Contact Us
 seo_title: Contact Us
 seo_keywords: Manpower Company in Kolkata
 seo_description: >-
