@@ -44,8 +44,9 @@ collections:
         - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
         - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
         - {label: Seo Description, name: seo_description, widget: text, required: false}
-        - {label: Google Map Coordinates, name: google_map_coordinates, widget: string}
         - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Map Link, name: map_link, widget: string}
+        - {label: Map Image, name: map_image, widget: image}
         - {label: Business Name, name: business_name, widget: string}
         - {label: Address, name: address, widget: text}
         - {label: Phone No, name: phone, widget: string}
