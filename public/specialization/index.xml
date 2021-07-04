@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Specialization on Adibainfotech</title>
+    <link>https://adibainfotech.netlify.com/specialization/</link>
+    <description>Recent content in Specialization on Adibainfotech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://adibainfotech.netlify.com/specialization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

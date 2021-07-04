@@ -1,0 +1,138 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: "static/images"
+public_folder: "/images"
+collections:
+- label: "Pages"
+  name: "pages"
+  files:
+    - label: "Home Page"
+      name: "home"
+      file: "content/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - label: Slides
+          name: slides
+          widget: list
+          fields:
+            - {label: Image, name: image, widget: image}
+            - {label: Title, name: title, widget: string}
+            - {label: Description, name: description, widget: text}
+            - {label: Link, name: link, widget: string}
+        - {label: Content, name: body, widget: markdown}
+    - label: "About Page"
+      name: "about"
+      file: "content/about/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Content, name: body, widget: markdown}
+    - label: "Contact Page"
+      name: "contact"
+      file: "content/contact/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Google Map Coordinates, name: google_map_coordinates, widget: string}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Business Name, name: business_name, widget: string}
+        - {label: Address, name: address, widget: text}
+        - {label: Phone No, name: phone, widget: string}
+        - {label: Email, name: email, widget: string}
+        - {label: Content, name: body, widget: markdown}
+    - label: "Profile Page"
+      name: "profile"
+      file: "content/profile/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: strin, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Username, name: username, widget: string}
+        - {label: Password, name: password, widget: string}
+        - {label: Profile File, name: profile_file, widget: file}
+        - label: Clients
+          name: clients
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Image, name: image, widget: image}
+        - {label: Content, name: body, widget: markdown}
+    - label: "Services Page"
+      name: "services"
+      file: "content/services/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Content, name: body, widget: markdown}
+    - label: "Careers Page"
+      name: "careers"
+      file: "content/careers/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - label: Roles
+          name: roles
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
+        - label: Industries
+          name: industries
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
+        - {label: Content, name: body, widget: markdown}
+    - label: "Specialization Page"
+      name: "specialization"
+      file: "content/specialization/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - label: Industries
+          name: industries
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Image, name: image, widget: image}
+        - {label: Content, name: body, widget: markdown}
+
+- label: "Data"
+  name: "data"
+  files:
+    - label: "Statistics"
+      name: "statistics"
+      file: "data/statistics.yml"
+      fields:
+        - label: Statistics
+          name: statistics
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Value, name: value, widget: number}
+    - label: "Meta"
+      name: "meta"
+      file: "data/meta.yml"
+      fields:
+        - {label: Page Background, name: background_image, widget: image}
+        - {label: Logo, name: logo, widget: image}
+        - {label: FB Cover, name: fb_cover, widget: image}
