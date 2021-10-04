@@ -101,5 +101,9 @@ clients:
     name: Just Words
   - image: /images/squashcode-logo.png
     name: Squash Code
+  - image: /images/logo.jpg
+    name: IDS COMPOSITES
+  - image: /images/ur-biocoction-manufacturing-private-limited-90x90.png
+    name: Biocoction Manufacturing Private Limited
 ---
 We work with some of the leading names in their respective industries and are looking forward to add your name into this list.
