@@ -97,5 +97,7 @@ clients:
     name: Pioneer Property
   - image: /images/somani.gif
     name: Somani Realtors
+  - image: /images/xjwc-logo-2021-1.png.pagespeed.ic.no4s92mm-c-copy.png
+    name: Just Words
 ---
 We work with some of the leading names in their respective industries and are looking forward to add your name into this list.
